@@ -639,3 +639,6 @@ footer{
 #rock{
     padding-bottom:10px
 }
+#avatar{
+    border-radius: 50%;
+}
