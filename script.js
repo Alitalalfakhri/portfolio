@@ -33,7 +33,7 @@ function myMenuFunction(){
 
 /* ----- TYPING EFFECT ----- */
  let typingEffect = new Typed(".typedText",{
-    strings : ["Designer","Youtuber","Developer"],
+    strings : ["Developer"],
     loop : true,
     typeSpeed : 100, 
     backSpeed : 80,
@@ -115,3 +115,7 @@ function scrollActive() {
 }
 
 window.addEventListener('scroll', scrollActive)
+
+function hireMe(){
+  window.location.href ="https://t.me/Web23Dev"
+}

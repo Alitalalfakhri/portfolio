@@ -614,6 +614,7 @@ footer{
     }
     .project-box{
         width: 80%;
+    
     }
 
 }
@@ -633,4 +634,8 @@ footer{
     .input-field{
         width: 100%;
     }
+}
+
+#rock{
+    padding-bottom:10px
 }
