@@ -119,3 +119,15 @@ window.addEventListener('scroll', scrollActive)
 function hireMe(){
   window.location.href ="https://t.me/Web23Dev"
 }
+
+document.querySelector('.taif-project').addEventListener('click' , () => {
+  window.location.href = 'https://alitalalfakhri.github.io/Al-taif/ '
+})
+
+document.querySelector('.web-station-project').addEventListener('click' , () => {
+  window.location.href = 'https://alitalalfakhri.github.io/web-station-store/amazon.html'
+})
+
+document.querySelector('.book-haven').addEventListener('click' , () => {
+  window.location.href = 'https://Ali-dev09.github.io/sumbook '
+})

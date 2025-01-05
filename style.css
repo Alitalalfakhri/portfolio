@@ -1,6 +1,6 @@
 /* ----- POPPINS FONT Link ----- */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@160..700&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 /* ----- VARIABLES ----- */
 :root{
     --body-color: rgb(250, 250, 250);
@@ -447,7 +447,13 @@ h3{
 }
 .real-projects{
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    h1{
+        font-family: "Readex Pro", serif;
+        font-size: 30px;
+    }
 }
 .taif-project{
         background-image: url('./worker.jpg');
@@ -456,11 +462,11 @@ h3{
         justify-content: flex-end;
         align-items:center;
         flex-direction: column;
-        width: 90%;
-        height: 250px;
+        width: 300px;
+        height: 300px;
         background-color: var(--color-white);  /* Fallback color */
         border-radius: 20px;
-        box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+        box-shadow: rgb(70, 65, 65) 10px 10px 10px;
         overflow: hidden;
         background-size: cover;   /* Adjust image size */
         background-position: center; /* Center the image */
@@ -474,13 +480,76 @@ h3{
             color: white;
             width: 100%;
             font-size: 20px;
+            border-radius: 20px;
         }
            
+}
+.web-station-project{
+    background-image: url('./green-logo.jpg');
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    background-color: var(--color-white);  /* Fallback color */
+    border-radius: 20px;
+    box-shadow: rgb(70, 65, 65) 10px 10px 10px;
+    overflow: hidden;
+    background-size: cover;   /* Adjust image size */
+    background-position: center; /* Center the image */
+    color: white;
+    cursor: pointer;
+    margin-top: 30px;
+    #titel{
+        display: flex;
+        margin-top:50px;
+        justify-content: center;
+        background-color: rgb(143, 175, 83);
+        color: white;
+        width: 100%;
+        font-size: 20px;
+        border-radius: 20px;
+    }
+       
+}
+.book-haven{
+    background-image: url('./book-haven.jpg');
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    background-color: var(--color-white);  /* Fallback color */
+    border-radius: 20px;
+    box-shadow: rgb(70, 65, 65) 10px 10px 10px;
+    overflow: hidden;
+    background-size: cover;   /* Adjust image size */
+    background-position: center; /* Center the image */
+    color: white;
+    cursor: pointer;
+    margin-top: 30px;
+
+    #titel{
+        display: flex;
+        margin-top:50px;
+        justify-content: center;
+        background-color: rgb(177, 141, 44);
+        color: white;
+        width: 100%;
+        font-size: 20px;
+        border-radius:20px;
+    }
+       
 }
 /* ----- CONTACT FORM ----- */
 .form-control{
     display: flex;
     flex-direction: column;
+  
     gap: 10px;
     width: 100%;
 }
@@ -631,6 +700,7 @@ footer{
         display: flex;
         flex-direction: column;
         justify-content: center;
+       
         gap: 50px;
     }
     .col{
