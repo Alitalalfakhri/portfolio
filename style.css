@@ -445,7 +445,38 @@ h3{
     color: #777;
     z-index: 2;
 }
-
+.real-projects{
+    display: flex;
+    justify-content: center;
+}
+.taif-project{
+        background-image: url('./worker.jpg');
+        position: relative;
+        display: flex;
+        justify-content: flex-end;
+        align-items:center;
+        flex-direction: column;
+        width: 90%;
+        height: 250px;
+        background-color: var(--color-white);  /* Fallback color */
+        border-radius: 20px;
+        box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+        overflow: hidden;
+        background-size: cover;   /* Adjust image size */
+        background-position: center; /* Center the image */
+        color: white;
+        cursor: pointer;
+        #titel{
+            display: flex;
+            margin-top:50px;
+            justify-content: center;
+            background-color: grey;
+            color: white;
+            width: 100%;
+            font-size: 20px;
+        }
+           
+}
 /* ----- CONTACT FORM ----- */
 .form-control{
     display: flex;
@@ -642,4 +673,7 @@ footer{
 }
 #avatar{
     border-radius: 50%;
+}
+.video{
+    width: 200px;
 }
