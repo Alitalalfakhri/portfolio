@@ -129,5 +129,5 @@ document.querySelector('.web-station-project').addEventListener('click' , () => 
 })
 
 document.querySelector('.book-haven').addEventListener('click' , () => {
-  window.location.href = 'https://sumbook-front.vercel.app/'
+  window.location.href = 'https://sumbook-client.vercel.app/'
 })
